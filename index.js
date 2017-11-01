@@ -10,3 +10,8 @@ export const renderJsx = component => {
   renderer.render(component)
   return renderer.getRenderOutput()
 }
+
+export default {
+  test,
+  renderJsx
+}
